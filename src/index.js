@@ -1,4 +1,5 @@
 import IrregularGrid from './irregular_grid'
+import 'normalize.css'
 
 function component() {
   let element = document.createElement('div');
