@@ -10,7 +10,7 @@ function component() {
       root.removeChild(root.firstChild);
     }
     IrregularGrid.new({ node: root })
-  }, 150)
+  }, 200)
   const grid = IrregularGrid.new({ node: root })
 
   return element;
