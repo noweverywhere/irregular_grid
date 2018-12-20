@@ -1,5 +1,5 @@
 import IrregularGrid from './irregular_grid'
-import 'normalize.css'
+// import 'normalize.css'
 
 function component() {
   let element = document.createElement('div');
@@ -10,7 +10,7 @@ function component() {
       root.removeChild(root.firstChild);
     }
     IrregularGrid.new({ node: root })
-  }, 200)
+  }, 10000)
   const grid = IrregularGrid.new({ node: root })
 
   return element;
